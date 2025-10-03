@@ -1,4 +1,4 @@
-import cov from "../assets/slidecov.png";
+import cov from "../assets/Slidecov.png";
 import { useState } from "react";
 import { ChevronDown, ChevronLeft } from "lucide-react"; // أيقونات جاهزة
 import { Link, NavLink } from "react-router-dom";
