@@ -125,7 +125,7 @@ export default function SlideShow() {
               </NavLink>
             </p>
           </SaddleList>
-          <SaddleList title="تحت راعي الضيافة الرسمي">
+          <SaddleList title=" راعي الضيافة الرسمي">
             <p>
               <NavLink
                 to="/Host"
@@ -138,7 +138,7 @@ export default function SlideShow() {
             </p>
             <p>
               <NavLink
-                to="/Host"
+                to="/Host2"
                 className={({ isActive }) =>
                   isActive ? "font-bold text-blue-400" : "hover:text-blue-300"
                 }
@@ -147,7 +147,7 @@ export default function SlideShow() {
               </NavLink>
             </p>
           </SaddleList>
-          <SaddleList title="تحت راعي المشروب الرسمي">
+          <SaddleList title=" راعي المشروب الرسمي">
             <p>
               <NavLink
                 to="/Drink"
@@ -160,7 +160,7 @@ export default function SlideShow() {
             </p>{" "}
             <p>
               <NavLink
-                to="/Drink"
+                to="/Drink2"
                 className={({ isActive }) =>
                   isActive ? "font-bold text-blue-400" : "hover:text-blue-300"
                 }

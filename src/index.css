@@ -16,3 +16,7 @@ h6 {
   font-family: "Tajawal", sans-serif;
   font-style: normal;
 }
+
+* {
+  font-family: "Tajawal", sans-serif !important;
+}

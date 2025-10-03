@@ -3,7 +3,7 @@ export default function AddButton({ label, onClick }) {
     <>
       <button
         onClick={onClick}
-        className="flex justify-center items-center gap-4 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg
+        className="flex justify-center text-center items-center gap-4 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg
         shadow-md hover:bg-blue-700 transition"
       >
         {label}

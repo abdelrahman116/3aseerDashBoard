@@ -46,7 +46,7 @@ export default function Drink() {
           <div className="flex flex-row  justify-around gap-120 mt-5">
             <div className="bg-white px-2 rounded-xl"> </div>
 
-            <p className="block font-medium font-3xl"> شعارات السطر الأول</p>
+            <p className="block font-medium font-3xl"> شعارات السطر الثاني</p>
           </div>
           <div className="SponserShip mr-10 mt-5 flex  flex-wrap gap-6 justify-end">
             {items.map((item) => (

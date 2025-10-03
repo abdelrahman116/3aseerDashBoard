@@ -7,6 +7,9 @@ import "./CSS/Baner.css";
 import Mainb from "./components/Mainb";
 import Departs from "./components/Departes";
 import Host from "./components/Host";
+import Host2 from "./components/Host2";
+import Drink2 from "./components/Drink2";
+
 import Drink from "./components/Drink";
 import CookComp from "./components/CookComp";
 import ParistaComp from "./components/ParistaComp";
@@ -26,11 +29,14 @@ function App() {
         <Route path="/" element={<Baner />} />
         <Route path="/Departs" element={<Departs />} />
         <Route path="/Host" element={<Host />} />
+        <Route path="/Host2" element={<Host2 />} />
         <Route path="/Media" element={<Media />} />
         <Route path="/Speaker" element={<Speaker />} />
         <Route path="/ParistaComp" element={<ParistaComp />} />
         <Route path="/News" element={<News />} />
         <Route path="/Drink" element={<Drink />} />
+        <Route path="/Drink2" element={<Drink2 />} />
+
         <Route path="/CookComp" element={<CookComp />} />
         <Route path="/Speaker" element={<Speaker.jsx />} />
       </Routes>

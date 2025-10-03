@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
 @import "tailwindcss";
+
 .mainName {
   display: block;
   font-weight: 500;
@@ -6,4 +9,19 @@
   position: absolute;
   right: 3rem;
   top: 3rem;
+}
+:root {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tajawal", sans-serif;
+  font-style: normal;
 }

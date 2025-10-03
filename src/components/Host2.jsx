@@ -1,16 +1,19 @@
 import AddButton from "./addButton";
 import "../CSS/Departes.css";
+import trash from "../assets/trash.png";
+import pen from "../assets/Pen.png";
 import Dash3 from "../assets/Dash3.jpg";
+import Add from "../assets/Add.png";
 import HostModal from "./HostModal";
 import HostCard from "./HostCard";
 import { useState } from "react";
-export default function Drink() {
+export default function Host2() {
   const [items, setItems] = useState([
     { id: 1, url: Dash3, title: "راعي 1" },
     { id: 2, url: Dash3, title: "راعي 2" },
     { id: 3, url: Dash3, title: "راعي 3" },
-    { id: 4, url: Dash3, title: "راعي 4" },
-    { id: 5, url: Dash3, title: "راعي 5" },
+    { id: 4, url: Dash3, title: "راعي 1" },
+    { id: 5, url: Dash3, title: "راعي 2" },
   ]);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -37,18 +40,18 @@ export default function Drink() {
   return (
     <>
       <div className="Departs">
-        <div className="mainName">راعي المشروب الرسمي ☰</div>
+        <div className="mainName">راعي الضيافة الرسمي ☰</div>
         <div className="first flex flex-row-reverse justify-between">
           <h1>الأقسام الحالية</h1>
           <AddButton label="إضافة راعي" onClick={() => setIsModalOpen(true)} />
         </div>
-        <div className="Sponser">
-          <div className="flex flex-row  justify-around gap-120 mt-5">
-            <div className="bg-white px-2 rounded-xl"> </div>
 
-            <p className="block font-medium font-3xl"> شعارات السطر الأول</p>
+        <div className="Sponser h-20">
+          <div className="flex flex-row justify-around gap-120 mt-5">
+            <div className="bg-white px-2 rounded-xl"> </div>
+            <p className="block font-medium"> شعارات السطر الثاني</p>
           </div>
-          <div className="SponserShip mr-10 mt-5 flex  flex-wrap gap-6 justify-end">
+          <div className="SponserShip mr-10 mt-5 flex flex-wrap gap-6 justify-end">
             {items.map((item) => (
               <HostCard
                 key={item.id}
@@ -59,7 +62,6 @@ export default function Drink() {
             ))}
           </div>
         </div>
-
         <HostModal
           isOpen={isModalOpen}
           onClose={() => {
