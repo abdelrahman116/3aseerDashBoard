@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SponsorModal from "./SponsorModal";
 import trash from "../assets/trash.png";
-import pen from "../assets/pen.png";
+import pen from "../assets/Pen.png";
 import Dash3 from "../assets/Dash3.jpg";
 import Add from "../assets/Add.png";
 
