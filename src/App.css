@@ -1,0 +1,9 @@
+@import "tailwindcss";
+.mainName {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+}
