@@ -191,6 +191,18 @@ export default function SlideShow() {
               </NavLink>
             </p>
           </SaddleList>
+          <SaddleList title="المتحدثون">
+            <p>
+              <NavLink
+                to="/Speaker"
+                className={({ isActive }) =>
+                  isActive ? "font-bold text-blue-400" : "hover:text-blue-300"
+                }
+              >
+                المتحدثون - الفاعليات{" "}
+              </NavLink>
+            </p>
+          </SaddleList>
         </div>
       </div>
     </>

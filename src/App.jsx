@@ -32,6 +32,7 @@ function App() {
         <Route path="/News" element={<News />} />
         <Route path="/Drink" element={<Drink />} />
         <Route path="/CookComp" element={<CookComp />} />
+        <Route path="/Speaker" element={<Speaker.jsx />} />
       </Routes>
     </>
   );
