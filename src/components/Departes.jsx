@@ -1,7 +1,7 @@
 import AddButton from "./addButton";
 import "../CSS/Departes.css";
 import trash from "../assets/trash.png";
-import pen from "../assets/pen.png";
+import pen from "../assets/Pen.png";
 import Dash3 from "../assets/Dash3.jpg";
 import Add from "../assets/Add.png";
 export default function Departs() {
